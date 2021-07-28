@@ -18,7 +18,7 @@
     <!-- Header starts here -->
     <header>
         <!-- navbar -->
-        <div>
+        <div id="navbar" class="position-fixed w-100">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                   <a class="navbar-brand" href="#">
@@ -48,18 +48,18 @@
         </div>
 
         <!-- hero section -->
-        <section class="container mb-5">
-          <div class="d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between">
+        <section id="hero-section" class="mb-3">
+          <div class="container d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between">
             <div>
               <img class="img-fluid hero-img" src="./assets/images/Group 33092.png" alt="">
             </div>
             <div>
               <h1 class="hero-title">
-                <span class="hero-title-1">Nike react</span> <br>
-                <span class="hero-title-2">Infinity Run 2</span>
+                <span class="color-1">Nike react</span> <br>
+                <span class="color-2">Infinity Run 2</span>
               </h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, libero?</p>
-              <button class="btn btn-success">
+              <button class="btn btn-primary custom-btn">
                 <i class="fas fa-shopping-cart"></i>
                 Buy Now
               </button>
@@ -70,8 +70,8 @@
 
     <main>
       <!-- Casual shoes section -->
-      <section class="container">
-        <h2>Casual Shoes</h2>
+      <section class="container mb-5">
+        <h2 class="custom-section-title color-2">Casual Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
             <div class="card h-100 p-3 custom-card">
@@ -79,12 +79,12 @@
                 <img src="./assets/images/image 5.png" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Nike Shoe</h5>
+                <h5 class="card-title custom-card-title color-2">Nike Shoe</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus?</p>
               </div>
-              <div class="card-footer d-flex justify-content-between bg-white">
-                <h2>$234</h2>
-                <button class="btn btn-success">
+              <div class="card-footer d-flex justify-content-between bg-white border-0">
+                <h2 class="price">$234</h2>
+                <button class="btn btn-primary custom-btn">
                   <i class="fas fa-shopping-cart"></i>
                   Buy Now
                 </button>
@@ -92,28 +92,136 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <div class="card h-100 p-3 custom-card">
+              <div class="custom-card-img-bg">
+                <img src="./assets/images/Daco_1703273 1.png" class="card-img-top" alt="...">
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-body">
+                <h5 class="card-title custom-card-title color-2">Nike Shoe</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus?</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-white border-0">
+                <h2 class="price">$234</h2>
+                <button class="btn btn-primary custom-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                  Buy Now
+                </button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="card h-100 p-3 custom-card">
+              <div class="custom-card-img-bg">
+                <img src="./assets/images/pngegg 1.png" class="card-img-top" alt="...">
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-body">
+                <h5 class="card-title custom-card-title color-2">Nike Shoe</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus?</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-white border-0">
+                <h2 class="price">$234</h2>
+                <button class="btn btn-primary custom-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                  Buy Now
+                </button>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formal shoes section -->
+      <section class="container mb-5">
+        <h2 class="custom-section-title color-2">Formal Shoes</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 p-3 custom-card">
+              <div>
+                <img src="./assets/images/Mask Group.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title custom-card-title color-2">Nike Shoe</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus?</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-white border-0">
+                <h2 class="price">$234</h2>
+                <button class="btn btn-primary custom-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-3 custom-card">
+              <div>
+                <img src="./assets/images/Rectangle 38.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title custom-card-title color-2">Nike Shoe</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus?</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-white border-0">
+                <h2 class="price">$234</h2>
+                <button class="btn btn-primary custom-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-3 custom-card">
+              <div>
+                <img src="./assets/images/Rectangle 39.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title custom-card-title color-2">Nike Shoe</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus?</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-white border-0">
+                <h2 class="price">$234</h2>
+                <button class="btn btn-primary custom-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- last section -->
+      <section class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 py-auto">
+            <div class="d-flex align-items-center p-3 custom-card mb-3">
+              <div><img class="me-3" src="./assets/images/icons/image 12.png" alt="" width="78"></div>
+              <div>
+                <h4 class="color-2">Find the Perfect Fit</h4>
+                <p>Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center p-3 custom-card mb-3">
+              <div><img class="me-3" src="./assets/images/icons/image 12.png" alt="" width="78"></div>
+              <div>
+                <h4 class="color-2">Find the Perfect Fit</h4>
+                <p>Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center p-3 custom-card mb-3">
+              <div><img class="me-3" src="./assets/images/icons/image 12.png" alt="" width="78"></div>
+              <div>
+                <h4 class="color-2">Find the Perfect Fit</h4>
+                <p>Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 py-auto">
+            <img class="img-fluid" width="100%" src="./assets/images/icons/XMLID 1.png" alt="">
           </div>
         </div>
       </section>

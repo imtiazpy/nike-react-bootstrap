@@ -1,6 +1,26 @@
 header {
   background-color: #fff9f4;
 }
+#navbar {
+  background-color: #fff9f4;
+  z-index: 100;
+}
+#hero-section {
+  background-color: #fff9f4;
+  position: relative;
+  top: 100px;
+  height: 80vh;
+}
+main {
+  position: relative;
+  top: 25vh;
+}
+.color-1 {
+  color: #fa804c;
+}
+.color-2 {
+  color: #363958;
+}
 .logo {
   width: 291px;
 }
@@ -12,19 +32,15 @@ header {
   font-size: 80px;
   font-weight: 700;
 }
-.hero-title-1 {
-  color: #fa804c;
-}
-.hero-title-2 {
-  color: #363958;
-}
 
 .custom-nav-margin {
   margin-left: 57px;
 }
 
-button {
+.custom-btn {
   text-transform: uppercase;
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  border-radius: 10px;
 }
 .custom-card {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
@@ -35,8 +51,26 @@ button {
   background-color: #f1f1f1;
   border-radius: 20px;
 }
+.custom-card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.price {
+  font-size: 36px;
+  font-weight: 900;
+  color: #fa804c;
+}
+
+.custom-section-title {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+}
 @media screen and (max-width: 390px) {
   .logo {
-    width: 250px;
+    width: 240px;
+  }
+  main {
+    top: 40vh;
   }
 }
